@@ -17,5 +17,5 @@
 @endforeach
 
 @else
-    <p>No listings found</p>
+    <p>No listing found</p>
 @endunless
