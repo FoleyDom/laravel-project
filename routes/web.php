@@ -18,15 +18,16 @@ use App\Models\Listing;
 // All listings
 Route::get('/', function () {
     return view('listings', [
-        'heading' => 'Latest Listings', 
+        'heading' => 'Latest Listings',
         'listings' => Listing::all(),
-        ]);
-    });
+    ]);
+});
 
 // Single listing
 Route::get('/listing/{id}', function ($id) {
     return view('listing', [
         'heading' => 'Latest ($id)',
         'listing' => Listing::find($id),
-        ]);
-    });
+    ]);
+});
+
