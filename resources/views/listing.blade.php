@@ -3,7 +3,7 @@
 @section('content')
 @include('partials._search')
 
-<a href="index.html" class="inline-block text-black ml-4 mb-4"><i class="fa-solid fa-arrow-left"></i> Back
+<a href="/" class="inline-block text-black ml-4 mb-4"><i class="fa-solid fa-arrow-left"></i> Back
 </a>
 <div class="mx-4">
     <div class="bg-gray-50 border border-gray-200 p-10 rounded">
